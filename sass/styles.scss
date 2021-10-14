@@ -9,10 +9,11 @@
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(/img2.jpg);
+    background-image: url(../img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100%;
 }
 h1{
     text-indent: 3rem;
