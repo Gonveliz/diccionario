@@ -21,7 +21,7 @@ form.addEventListener('submit', async (event) => {
         data = names[0].meanings[0].definitions[0].definition
     }
 
-    definition.innerHTML += `<li>${palabraEscritura} : ${data}</li>`
+    definition.innerHTML += `<li><span>${palabraEscritura}</span> : ${data}</li>`
     
 })
 

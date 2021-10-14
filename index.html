@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/styles.css">
+
     <title>Free Dictionary</title>
 </head>
 <body>
     <h1>Free Dictionary</h1>
-    <form id="form" class="flex">
-
-        <h1>Busca tu palabra</h1>
-        <ul>
-            <li><input id="search" type="text" placeholder="Introduce el texto"></li>
-            <li><button id="sumbit" type="submit" value="Enviar">ENVIAR</button></li>
-        </ul>
-
-    </form>
     <div>
-        <ul id="definition" class="">
-
-        </ul>
+        <form id="form" class="flex">
+            <h2>Busca tu palabra</h2>
+            <ul>
+                <li><input id="search" type="text" placeholder="Introduce el texto"></li>
+                <li><button id="sumbit" type="submit" value="Enviar">ENVIAR</button></li>
+            </ul>
+        </form>
+        
+    </div>  
+    <div>
+        <ul id="definition" class="recuadro"></ul>
     </div>
     <script src="./main.js"></script>
 </body>

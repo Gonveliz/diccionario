@@ -7,11 +7,17 @@
 }
 
 body {
-  font-family: "Scheherazade New", serif;
+  font-family: "Source Sans Pro", sans-serif;
+  background-image: url(/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
   text-indent: 3rem;
+  font-weight: bold;
+  color: white;
 }
 
 .flex {
@@ -23,6 +29,50 @@ h1 {
 
 form {
   background-color: grey;
+}
+form li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form h2 {
+  background-color: #313131;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+form input {
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  border: 1px solid white;
+}
+form button {
+  padding: 0.5rem;
+  background-color: #270a0a;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  border: 1px solid white;
+}
+form button:hover {
+  color: #270a0a;
+  background-color: white;
+  transition: 0.2s;
+}
+
+div li {
+  text-indent: 2rem;
+  margin: 1rem;
+}
+
+.recuadro li {
+  background: white;
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+.recuadro li span {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
