@@ -64,9 +64,14 @@ form button:hover {
 
 div li {
   text-indent: 2rem;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
+.recuadro {
+  width: 70%;
+  display: flex;
+  flex-direction: column-reverse;
+}
 .recuadro li {
   background: white;
   padding: 0.8rem;
