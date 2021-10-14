@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+
+body{
+    font-family: 'Scheherazade New', serif;
+
+}
+h1{
+    text-indent: 3rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    background-color: grey;
+}
